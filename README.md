@@ -3,7 +3,7 @@
 
 **rdpci** is a Linux kernel PCI driver (lkm) that enables reading PCI memory areas (BAR's I/O port or I/O memory).
 
-BAR stands for Base Address Register, which is used to define memory-mapped I/O regions).
+BAR stands for Base Address Register, which is used to define memory-mapped I/O regions.
 
 **rdpci/lkm/rdpci.c** - kernel module.      
 **rdpci/rdpci/rdpci.c** - userspace application for reading data from /dev/rdpci device file.
